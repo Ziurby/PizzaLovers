@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'pages/index'
+  root 'pages#index'
   get 'home' => 'pages#home'
   get 'profile' => 'pages#profile'
   get 'explore' => 'pages#explore'
